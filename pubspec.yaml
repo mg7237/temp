@@ -1,0 +1,30 @@
+name: consumer
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  flutter_fusioncharts:
+    git: 
+      url: https://github.com/fusioncharts/flutter-fusioncharts
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_inappwebview: ^5.7.1
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
